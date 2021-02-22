@@ -9,5 +9,5 @@ for altura in range(0, imagem.shape[0]):
         imagem[altura, largura] = (255, 0, 0)
 cv2.imshow("Imagem modificada", imagem)
 cv2.waitKey(0)
-cv2.imwrite('imagens_processadas/im1(substituicao_por_azul).jpg', imagem)
+# cv2.imwrite('imagens_processadas/im1(substituicao_por_azul).jpg', imagem)
 cv2.destroyAllWindows()
