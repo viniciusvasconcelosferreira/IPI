@@ -11,7 +11,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-imagem = cv2.imread('imagens/im1.jpg')
+imagem = cv2.imread('../imagens/im1.jpg')
 cv2.imshow('Visualizar imagem', imagem)
 print(f'Altura em pixels: {imagem.shape[0]}')
 print(f'Largura em pixels: {imagem.shape[1]}')
